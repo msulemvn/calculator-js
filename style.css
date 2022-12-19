@@ -1,0 +1,50 @@
+.key {
+  height: 30px;
+  width: 50px;
+  margin: 2px;
+}
+
+#history {
+  display: block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsZP1F4tPTIO9PMi1VC-jued8FXurjnypT82PbjemSmiQUTd53i12tKas6gMD0MtMtGY&usqp=CAU");
+  background-size: cover;
+}
+
+#glass {
+  border: 1px solid black;
+}
+
+.display-screens {
+  line-height: 20px;
+  margin: 0px 10px;
+}
+
+.display-screens {
+  border: 0;
+  outline: 0;
+}
+.display-screens:focus {
+  outline: none !important;
+}
+
+#container {
+  width: fit-content;
+  margin: 5px;
+}
+
+#child-container {
+  margin: 5px;
+}
+
+#result {
+  color: red;
+}
+
+.float-left {
+  float: left;
+  height: 20;
+}
